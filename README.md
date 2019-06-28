@@ -1,11 +1,11 @@
-Write code in Main.cpp
+
 
 We use a stationary camera (Camera mount out of robot)
 
-T_t_cal: transform from robot tool to calibration board (fixed)
-T_b_t: transform from robot base to tool
-T_c_cal: transform from camera to calibration board
-T_b_c: transform from robot base to camera (fixed). You need to calibrate this transform
+- T_t_cal: transform from robot tool to calibration board (fixed)
+- T_b_t: transform from robot base to tool
+- T_c_cal: transform from camera to calibration board
+- T_b_c: transform from robot base to camera (fixed). You need to calibrate this transform
 
 Data is in the form of [x, y, z, ox, oy, oz, ow], position + quaternion
 
